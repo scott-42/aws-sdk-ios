@@ -18,6 +18,7 @@
 #import "AmazonServiceResponseUnmarshaller.h"
 #import "AmazonLogger.h"
 #import "AmazonJSON.h"
+#import "AmazonErrorHandler.h"
 
 #define REQUEST_ID_HEADER    @"X-Amzn-Requestid"
 #define kHttpHdrAmzCrc32     @"X-Amz-Crc32"
@@ -28,6 +29,7 @@
 
 @implementation DynamoDBResponse
 
+@synthesize responseHeader;
 @synthesize crc32;
 
 - (id)init

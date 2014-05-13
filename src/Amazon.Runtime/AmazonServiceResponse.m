@@ -17,6 +17,7 @@
 #import "AmazonServiceResponse.h"
 #import "AmazonServiceResponseUnmarshaller.h"
 #import "AmazonLogger.h"
+#import "AmazonErrorHandler.h"
 
 NSString *const AWSClockSkewError = @"AWSClockSkewError";
 
@@ -35,7 +36,6 @@ NSString *const AWSClockSkewError = @"AWSClockSkewError";
 @synthesize processingTime;
 @synthesize error;
 @synthesize exception;
-@synthesize responseHeader;
 @synthesize isAsyncCall;
 @synthesize hasClockSkewError;
 
@@ -303,7 +303,7 @@ NSString *const AWSClockSkewError = @"AWSClockSkewError";
     [exception release];
     [request release];
     [error release];
-    [responseHeader release];
+    [_responseHeader release];
 
     [super dealloc];
 }

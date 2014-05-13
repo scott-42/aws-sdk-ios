@@ -14,7 +14,7 @@
  */
 
 #import <CoreData/CoreData.h>
-#import <AWSRuntime/AWSRuntime.h>
+#import "AWSRuntime.h"
 
 extern NSString *const AWSPersistenceDynamoDBIncrementalStoreType;
 extern NSString *const AWSPersistenceDynamoDBHashKey;

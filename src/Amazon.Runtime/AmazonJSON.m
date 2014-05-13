@@ -15,6 +15,7 @@
 
 #import "AmazonJSON.h"
 #import "AWS_SBJson.h"
+#import "AmazonLogger.m"
 
 @implementation AmazonJSON
 

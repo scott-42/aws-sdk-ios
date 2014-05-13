@@ -14,7 +14,7 @@
  */
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonAbstractJsonWebServiceClient.h>
+#import "AmazonAbstractJsonWebServiceClient.h"
 #else
 #import "../AmazonAbstractJsonWebServiceClient.h"
 #endif

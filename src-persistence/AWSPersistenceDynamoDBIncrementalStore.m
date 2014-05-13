@@ -15,7 +15,7 @@
 
 #import "AWSPersistenceDynamoDBIncrementalStore.h"
 #import <objc/message.h>
-#import <AWSDynamoDB/AWSDynamoDB.h>
+#import "AWSDynamoDB.h"
 
 // Public Constants
 NSString *const AWSPersistenceDynamoDBIncrementalStoreType = @"AWSPersistenceDynamoDBIncrementalStore";

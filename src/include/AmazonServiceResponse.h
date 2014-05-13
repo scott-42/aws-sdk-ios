@@ -33,7 +33,6 @@ extern NSString *const AWSClockSkewError;
     int32_t            httpStatusCode;
     NSString             *requestId;
     NSMutableData        *body;
-    NSDictionary         *responseHeader;
     NSException          *exception;
     BOOL                 isFinishedLoading;
     BOOL                 didTimeout;

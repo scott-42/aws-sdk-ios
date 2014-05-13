@@ -14,8 +14,8 @@
  */
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonServiceRequest.h>
-#import <AWSRuntime/AmazonAuthUtils.h>
+#import "AmazonServiceRequest.h"
+#import "AmazonAuthUtils.h"
 #else
 #import "../AmazonServiceRequest.h"
 #import "../AmazonAuthUtils.h"

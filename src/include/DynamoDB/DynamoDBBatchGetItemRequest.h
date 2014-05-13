@@ -16,7 +16,7 @@
 #import "DynamoDBKeysAndAttributes.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
-#import <AWSRuntime/AmazonServiceRequestConfig.h>
+#import "AmazonServiceRequestConfig.h"
 #else
 #import "../AmazonServiceRequestConfig.h"
 #endif
